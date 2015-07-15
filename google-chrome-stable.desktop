@@ -118,7 +118,9 @@ Type=Application
 Categories=Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
 StartupWMClass=Google-chrome-stable
-X-Ayatana-Desktop-Shortcuts=NewWindow;NewIncognito
+
+#X-Ayatana-Desktop-Shortcuts=NewWindow;NewIncognito
+# to find necessary uncomment the above line
 
 [NewWindow Shortcut Group]
 Name=New Window
